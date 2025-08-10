@@ -17,7 +17,7 @@ import howlAudio from "../assets/Howl.mp3";
 import howlImg from "../assets/image.png";
 
 function HomeApp() {
-  const [isPlaying, setIsPlaying] = useState(false); // controla se áudio começou
+  const [isPlaying, setIsPlaying] = useState(true); // controla se áudio começou
 
   const fotos = [
     foto1, foto2, foto4, foto5, foto6, foto7, foto8, foto9, foto10,
